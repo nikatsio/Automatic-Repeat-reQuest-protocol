@@ -1,0 +1,4 @@
+Automatic-Repeat-reQuest-protocol
+=================================
+
+Automatic Repeat reQuest (ARQ), also known as Automatic Repeat Query, is an error-control method for data transmission that uses messages sent by the receiver indicating that it has correctly received a data frame or packet (acknowledgements) and  specified periods of time allowed to elapse before an acknowledgment is to be received (timeouts) to achieve reliable data transmission over an unreliable service. If the sender does not receive an acknowledgment before the timeout, it usually re-transmits the frame/packet until the sender receives an acknowledgment or exceeds a predefined number of re-transmissions. ARQ protocols apart from stop-and-wait, Go-Back-N and Selective Repeat ARQ types. We try for each ARQ type different block and window size combinations to observe their reactions to these variations and RTT values.
